@@ -3,8 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import ToastInit from "./assets/lib/toastinnit/toastinit.js"
 
 Vue.config.productionTip = false
+Vue.use(ToastInit);
+
 
 /* eslint-disable no-new */
 new Vue({
